@@ -3,14 +3,14 @@ return [
     'BE' => [
         'debug' => false,
         'explicitADmode' => 'explicitAllow',
-        'installToolPassword' => '$pbkdf2-sha256$25000$GIgk5Ca0K.DY1ur6N4wQQw$6f8l7/XA8uDcRL5zi46hGzqr3xMq7xIqWkGD5X3xpRI',
+        'installToolPassword' => '$pbkdf2-sha256$25000$DSQdo.PPZqpSN.mbFDL31A$OMkRa8fMGfByLqVjvhnRd8cio5yxUNi.diJB8gLOvos',
         'loginSecurityLevel' => 'rsa',
     ],
     'DB' => [
         'Connections' => [
             'Default' => [
                 'charset' => 'utf8',
-                'dbname' => 'typo3',
+                'dbname' => 'TYPO3Prueba',
                 'driver' => 'mysqli',
                 'host' => '127.0.0.1',
                 'password' => '',
@@ -58,11 +58,11 @@ return [
         'devIPmask' => '',
         'displayErrors' => 0,
         'enableDeprecationLog' => false,
-        'encryptionKey' => '9ed810ea588ca4c7d79403bc80e965dfd3178fc3d29695f096e9d470f2b612c2908295bea8f5e58868fcad05b83d8d2b',
+        'encryptionKey' => '9176d43b2a7ffa3424be31e3188897a852640f995e39873068346c46a646f3396044bc3965279403825077aab4377e1d',
         'exceptionalErrors' => 20480,
         'isInitialDatabaseImportDone' => true,
         'isInitialInstallationInProgress' => false,
-        'sitename' => 'Probando',
+        'sitename' => 'New TYPO3 site',
         'sqlDebug' => 0,
         'systemLogLevel' => 2,
     ],
